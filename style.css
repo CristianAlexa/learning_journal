@@ -272,7 +272,7 @@ input[type=submit] {
 }
 
 .featured-post > .container {
-  padding: 2rem 4rem;
+  padding: 2rem 0;
 }
 
 .featured-post > img {
@@ -399,6 +399,10 @@ footer {
     margin-bottom: 1.5rem;
   }
 
+  .featured-post > .container {
+    padding: 2rem 4rem;
+  }
+
   .about-header {
     display: flex;
     gap: 2rem;
@@ -429,5 +433,3 @@ footer {
 
 
 }
-
-
