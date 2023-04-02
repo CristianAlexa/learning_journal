@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Learning Journal</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header>
+        <nav class="primary-nav flex jc-sb ai-c">
+          <img src="images/logo.png" alt="My Learning Journal" />
+          <button class="nav-toggle"><span class="hamburger" id="hamburger"></span></button>
+          <ul class="main-menu">
+            <li class="menu-item"><a href="index.html">Home</a></li>
+            <li class="menu-item"><a href="about.html">About</a></li>
+            <li class="menu-item"><a href="blog_page.html">Blog</a></li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <section class="hero padding-2 flex flex-column">
+          <p class="date">July 23, 2022</p>
+          <h1 class="title">My new journey as a bootcamp student.</h1>
+          <p class="hero-text">
+            After several months of learning in the Frontend Developer Career
+            Path, I've made the big jump over to the Bootcamp to get expert code
+            reviews of my Solo Projects projects and meet like-minded peers.
+          </p>
+          <a href="blog_page.html" class="a-btn">Read more</a>
+        </section>
+      </header>
+      <main class="main-content padding-2">
+        <section class="blog-posts grid" id="blog-posts">
+        </section>
+
+      </main>
+      <footer>
+        <p class="footer-title">My Learning Journal</p>
+        <p class="copyright">Copyright ©2022</p>
+      </footer>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
